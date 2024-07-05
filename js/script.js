@@ -5,6 +5,9 @@ var successMessage = document.getElementById('success-message');
 var moreActions = document.getElementById('more-actions');
 var outputContainer = document.getElementById('output-container');
 
+//Copyright 2018 to this year, changed every 1 Jan
+document.getElementById('currentYear').innerText = new Date().getFullYear();
+
 // Set initial width and max-width of output-container to match input box
 outputContainer.style.width = window.getComputedStyle(document.getElementById('input-text')).width;
 outputContainer.style.maxWidth = window.getComputedStyle(document.getElementById('input-text')).width;
@@ -57,6 +60,3 @@ downloadBtn.addEventListener('click', function () {
 createAnotherBtn.addEventListener('click', function () {
     location.reload();
 });
-
-//Copyright 2018 to this year, changed every 1 Jan
-document.getElementById('currentYear').innerText = new Date().getFullYear();
