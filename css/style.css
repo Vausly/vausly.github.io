@@ -21,77 +21,6 @@ body {
     height: 100%; /* Make the main container taller */
     background-color: #f0f0f0;
 }
-#input-label {
-    margin-bottom: 5px;
-}
-#input-text {
-    width: 80%;
-    padding: 8px;
-    margin-bottom: 10px;
-}
-#generate-btn {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-#download-btn, #create-another-btn {
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    display: none;
-}
-
-#generate-btn:hover, #download-btn:hover, #create-another-btn:hover {
-    background-color: red; /* Warna merah ketika diarahkan cursor */
-}
-
-#more-actions {
-    margin-top: 20px;
-    font-weight: bold;
-    display: none;
-}
-#output-container {
-    margin-top: 20px;
-    width: 100%; /* Set initial width to match input box */
-    max-width: 100%; /* Set maximum width to match input box */
-    height: 320px; /* Set the desired height */
-    background-color: #fff;
-}
-#qrcode-box {
-    border: 2px solid #ccc;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Take full height of the container */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    width: 100%; /* Set width to 100% */
-}
-#qrcode {
-    width: 100%; /* Set width to 100% */
-    height: 100%; /* Set height to 100% */
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#success-message {
-    font-weight: bold;
-    font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 10px; /* Add margin-bottom for space */
-    display: none;
-}
-#share-text {
-    margin-top: 20px; /* Move space before this text */
-    margin-bottom: 0; /* Remove margin-bottom */
-}
 
 body {
 margin: 0;
@@ -177,14 +106,4 @@ footer a:hover {
 
 .copyright-text:hover {
     color: #ff0000; /* Warna merah saat diarahkan */
-}
-
-.saweria {
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    display: none;
 }
