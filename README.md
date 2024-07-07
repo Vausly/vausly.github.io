@@ -1,3 +1,5 @@
 # Vausly Github Page
 
-This is page owned by Vausly, formely Lesunk
+This page owned by Vausly Project, formerly Lesunk Media
+
+Visit https://www.lesunk.eu.org for more details.
