@@ -5,9 +5,9 @@ This page is an HTML version of my [web profile](https://github.com/Vausly/web-p
 
 Domain that I want to use on GitHub pages for all repository: https://www.vausly.my.id/
 
-My portfolio page can be found here: https://web.vausly.my.id/
+My portfolio page can be found here: https://me.vausly.com/
 
 My React web profile repo: https://git.new/wp-repo
 
-BTW, if you like my project, make sure you support us by donate: https://u.vausly.com/tip
+BTW, if you like my project, make sure you support us by donate: https://vausly.net/tip
 
