@@ -31,18 +31,18 @@ const DonatePage = () => {
         </p>
         <p className="mb-10 text-sm text-gray-100">Note: I am only available on the following platforms. Other than the list below is not me!</p>
 
-        {/* Saweria */}
+        {/* Sociabuzz */}
         <div className="mb-6 flex flex-col items-center">
           <motion.button
-            onClick={() => toggleDropdown('saweria')}
+            onClick={() => toggleDropdown('sociabuzz')}
             className={buttonClass}
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
           >
-            Donate via Saweria
+            Donate via Sociabuzz
           </motion.button>
           <AnimatePresence>
-            {openDropdown === 'saweria' && (
+            {openDropdown === 'sociabuzz' && (
               <motion.div
                 variants={dropdownVariant}
                 initial="hidden"
@@ -51,9 +51,9 @@ const DonatePage = () => {
                 transition={{ duration: 0.3 }}
                 className="mt-2 px-6 py-4 bg-black/30 rounded-xl text-white text-sm max-w-md w-full"
               >
-                <p>Saweria is the fastest way to send support via e-wallets, GoPay, OVO, DANA, and more.</p>
+                <p>Sociabuzz is the fastest way to send support via e-wallets, GoPay, OVO, DANA, International Banks, Cryptocurrencies, and more.</p>
                 <a
-                  href="https://saweria.co/vausly"
+                  href="https://sociabuzz.com/vausly/support"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
@@ -107,7 +107,7 @@ const DonatePage = () => {
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
           >
-            PayPal (recommended)
+            PayPal (international)
           </motion.button>
           <AnimatePresence>
             {openDropdown === 'bmc' && (
@@ -133,39 +133,6 @@ const DonatePage = () => {
           </AnimatePresence>
         </div>
         
-        {/* Crypto */}
-        <div className="mb-6 flex flex-col items-center">
-          <motion.button
-            onClick={() => toggleDropdown('crypto')}
-            className={buttonClass}
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            Tip using Crypto
-          </motion.button>
-          <AnimatePresence>
-            {openDropdown === 'crypto' && (
-              <motion.div
-                variants={dropdownVariant}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="mt-2 px-6 py-4 bg-black/30 rounded-xl text-white text-sm max-w-md w-full"
-              >
-                <p>Support by using crypto, like Solana, Bitcoin, or Ethereum.</p>
-                <a
-                  href="https://vausly.net/cryptotip"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-3 px-6 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white"
-                >
-                  Support with crypto
-                </a>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
       </div>
     </PageWrapper>
   );
